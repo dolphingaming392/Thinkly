@@ -1,16 +1,14 @@
 {
-  "Name": "Thinkly",
-  "Privite": True
-  "Verison": "FH7 0.1.2",
-  "type": "Module",
-
+  "name": "vite-react-typescript-starter",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    "dev": "Vite"
-    "build": "Vite build"
-    "lint": "eslint",
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
     "preview": "vite preview"
   },
-  
   "dependencies": {
     "@google/generative-ai": "^0.24.0",
     "@supabase/supabase-js": "^2.39.7",
@@ -39,4 +37,3 @@
     "vite": "^5.4.2"
   }
 }
-    
