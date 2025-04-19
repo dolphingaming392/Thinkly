@@ -20,7 +20,7 @@ const App: React.FC = () => {
       return;
     }
 
-    
+    /
     const session = supabase.auth.getSession();
     session.then(({ data: { session } }) => {
       setUser(session?.user ?? null);
