@@ -34,8 +34,7 @@ const TeacherDashboard: React.FC = () => {
       return;
     }
 
-    // In a real app, you would fetch the students data from the database
-    // For now, we'll use mock data
+  
     const mockStudents: Student[] = [
       { id: 's1', name: 'John Doe', progress: 80, lastActive: '2 hours ago' },
       { id: 's2', name: 'Jane Smith', progress: 90, lastActive: '1 hour ago' },
@@ -43,7 +42,7 @@ const TeacherDashboard: React.FC = () => {
     ];
     setStudents(mockStudents);
 
-    // Mock chat messages
+    
     const mockMessages: Message[] = [
       { id: 'm1', sender: 'John Doe', content: 'Can you explain the homework?', timestamp: '2 hours ago' },
       { id: 'm2', sender: 'You', content: 'Sure, what part do you need help with?', timestamp: '1 hour ago' },
